@@ -1,0 +1,35 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+$emerald: #1BAA6F;
+$emerald-dark: #78AF8F;
+$emerald-bright: #94E864;
+$light-grey: #eeeeee;
+
+body {
+  background: $light-grey;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#input {
+  height: 30px;
+}
+
+#btn-emerald {
+  background-color: $emerald;
+  padding: 10px;
+  width: 100px;
+  color: $light-grey;
+  transition: 0.15s;
+  &:hover {
+    background-color: $emerald-dark;
+    color: white;
+    transition: 0.15s;
+  }
+}

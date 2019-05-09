@@ -1,0 +1,33 @@
+$emerald: #1BAA6F;
+$emerald-dark: #78AF8F;
+$emerald-bright: #94E864;
+$grey-light: #eeeeee;
+$yellow-light: #ffffcc;
+
+body {
+  background-color: white;
+}
+
+.container {
+  margin: 030px;
+}
+
+.question {
+  background-color: white;
+  border-left: 10px solid $grey-light;
+  padding: 1px 20px;
+  margin-bottom: 10px;
+}
+
+.answer {
+  background-color: $yellow-light;
+  border-left: 10px solid $grey-light;
+  padding: 1px 20px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+
+
